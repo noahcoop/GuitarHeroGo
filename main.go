@@ -36,7 +36,7 @@ type Note struct {
 	Timestamp int64        `json:"Timestamp"`
 }
 
-const (
+var (
 	note_keys = []ebiten.Key{
 		ebiten.KeyA,
 		ebiten.KeyS,
